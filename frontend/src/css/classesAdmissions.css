@@ -1,0 +1,96 @@
+.classes,
+.admissions {
+    margin-top: 150px;
+    color: white;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.add-new-student ,.add-timetable{
+    margin-top: 120px;
+    color: white;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.classes .header p,
+.admissions .header p,
+.add-new-student .header p,.add-timetable .header p{
+    font-size: 45px;
+}
+
+.classes .inputs,
+.admissions .inputs {
+    margin-top: 60px;
+    margin-left: 120px;
+}
+
+.add-new-student .inputs ,.add-timetable .inputs{
+    margin-top: 45px;
+    margin-left: 120px;
+}
+
+.classes label,
+.admissions label,
+.add-new-student label,.add-timetable label{
+    flex: 0 0 calc(100% - 20px);
+    margin-left: 27px;
+    margin-right: 20px;
+    margin-bottom: 14px;
+    display: flex;
+}
+
+.classes input,
+.admissions input,
+.add-new-student input,.add-timetable input{
+    margin: 0;
+    border-radius: 5px;
+    border: 1px solid #ea9f26;
+    font-size: 15px;
+    padding: 5px 10px;
+    height: auto;
+    width: auto;
+}
+
+.classes label p,
+.admissions label p,
+.add-new-student label p,.add-timetable label p{
+    flex: 0 0 200px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-right: -50px;
+}
+
+.classes label span,
+.admissions label span,
+.add-new-student label span ,.add-timetable label span{
+    flex: 1;
+    margin-left: 50px;
+}
+
+.classes button,
+.admissions button {
+    font-weight: lighter;
+    font-size: 18px;
+    position: absolute;
+    bottom: 200px;
+    left: 40%;
+    transform: translateX(-0%);
+    letter-spacing: normal;
+    border-radius: 20px;
+    padding: 12px 40px;
+}
+
+.add-new-student button,.add-timetable button{
+    font-weight: lighter;
+    font-size: 18px;
+    position: absolute;
+    bottom: 28px;
+    left: 50%;
+    transform: translateX(-0%);
+    letter-spacing: normal;
+    border-radius: 20px;
+    padding: 12px 40px;
+}

@@ -1,0 +1,99 @@
+.linethrough{
+    text-decoration: line-through;
+}
+
+
+
+.todo-container {
+    /* border: 2px solid black; */
+    margin-top: 5px;
+    margin: auto;
+    width: 40%;
+    padding: 20px;
+    /* background-color: rgb(229, 208, 248); */
+    /* background-color: rgb(16,21,38,0.1); */
+    box-shadow: 
+    0 0 35px #ea9f26;
+    border-radius: 10px;
+    margin-top:150px;
+    color:white;
+  }
+  
+  
+  .todo .input-container input {
+    width: 450px;
+    border-radius: 10px;
+    padding: 1px 5px;
+    height: 30px;
+    margin-top: 10px;
+  }
+  
+  .todo .input-container {
+    display: flex;
+  }
+  
+  .todo .text-container {
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  
+  .todo .input-container>button {
+    border-radius: 25px;
+    padding: 10px 22px;
+    margin: 5px;
+    margin-top: 12px;
+    margin-left: 65px;
+    font-size: 12px;
+    color: white;
+    background-color: #ea9f26;
+    font-weight: bold;
+    /* border: 2px solid black; */
+  }
+  
+  .todo .display-todo{
+    display: flex;
+    justify-content: space-between;
+    margin:7px 0px;
+    margin-right: 20px;
+  }
+  
+  
+  .todo .display-todo .todo-string{
+    width: 450px;
+    margin: 8px;
+    /* border: 2px solid black; */
+  }
+  
+  .todo .your-todos{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  
+  
+  .todo .display-todo .todo-buttons{
+    padding:1px 2px;
+    font-size: medium;
+    /* background-color:  rgb(190, 136, 243);  */
+    background-color:  #ea9f26;
+    /* border: 2px solid black; */
+    padding: 6px;
+    border-radius: 10px;
+  }
+  
+  
+  .todo .display-todo .button-container{
+    display: flex;
+    gap : 5px;
+    height: 30px;
+    padding-top: 3px;
+  }
+  
+  .todo .show-finished label{
+   padding : 10px;
+   font-weight: 400;
+  
+  }

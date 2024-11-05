@@ -1,0 +1,117 @@
+.rescheduleclass{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    padding:20px;
+}
+
+.rescheduleclass p{
+    text-transform: capitalize;
+    font-size:18px;
+    margin:10px;
+}
+
+.rescheduleclass > p{
+    font-size:18px;
+    align-self: start;
+}
+.rescheduleclass >p:first-child
+{
+    font-size:40px;
+}
+
+.rescheduleclass form{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 75%;
+    align-items: center;
+    margin: 5px;
+}
+
+.rescheduleclass form > div{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    gap:100px;
+}
+
+.rescheduleclass form > div > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:30px;
+    width: 35%;
+    
+}
+
+.rescheduleclass form > div > div> div{
+    display: flex;
+    align-items: center;
+}
+
+.rescheduleclass form p{
+    font-size: 19px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.rescheduleclass .verticalline{
+    border: 1px solid #ea9f26;
+    width: 0;
+    height: 100%;
+}
+
+.rescheduleclass button{
+    width: 200px;
+    position: absolute;
+    bottom:60px;
+}
+
+.rescheduleclass input,.rescheduleclass select{
+    outline: none;
+    border: 2px solid #ea9f26;
+    font-size: 15px;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    padding:5px 10px;
+    margin:5px;
+
+
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.rescheduleclass select{
+    min-width: 225px;
+    max-width: 225px;
+}
+
+.rescheduleclass span,label{
+    color:white;
+    margin: 5px;
+    font-size: 18px;
+}
+
+.rescheduleclass option{
+    color:black;
+}
+
+.rescheduleclass label{
+    min-width: 100px;
+    max-width: 100px;
+    font-size: 18px;
+}
+
+
+.rescheduleclass [type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1); 
+  }

@@ -1,0 +1,42 @@
+.timetable{
+    height: 80vh;
+    padding:15px;
+    color:white;
+    text-transform: capitalize;
+}
+
+.timetable > p{
+    font-size:18px;
+    margin:10px;
+}
+
+.timetable > p:first-child{
+    font-size:40px;
+}
+
+.timetable > div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+
+}
+
+.timetable table{
+    width: 50%;
+    border:1px solid;
+    padding: 4px;
+     /* border-spacing: 10px; */
+    text-align: center;
+    text-transform: uppercase; 
+    border: 3px solid #ea9f26;
+    /* color : #ea9f26; */
+}
+
+.timetable th,td{
+    border: 1px solid #ea9f26;
+    padding: 5px;
+    
+}
+

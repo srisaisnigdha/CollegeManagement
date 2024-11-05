@@ -1,0 +1,50 @@
+.modifyclass{
+    padding:20px;
+    color:white;
+}
+
+.modifyclass > p{
+    font-size:large;
+    margin:10px;
+}
+
+.modifyclass > p:first-child{
+    font-size:40px;
+}
+
+
+.modifyclass div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 50vh;
+    align-items: center;
+    gap:10px;
+}
+
+.modifyclass div div{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    height: 25%;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.modifyclass button{
+    min-width: 220px;
+    max-width: 220px;
+    padding:7px;
+}
+
+.modifyclass div div >p{
+    min-width: 250px;
+    max-width: 250px;
+    font-size:18px;
+}
+
+.modifyclass div div >p:nth-child(2){
+    max-width: 10px;
+    min-width: 10px;
+}

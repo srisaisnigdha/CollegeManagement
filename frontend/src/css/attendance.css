@@ -1,0 +1,123 @@
+.studentattendance .attendance{
+    height: 90vh;
+    color:white;
+    padding:10px 35px;
+
+}
+
+.studentattendance .attendance p{
+    font-size:25px;
+    margin-bottom:15px;
+}
+
+.studentattendance .attendance > p{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.studentattendance .attendancedetails{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right:  auto;
+    height: 90vh;
+    align-items:center;
+}
+
+.studentattendance .attendancedetails > div{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    font-size: 18px;
+
+}
+
+.studentattendance .attendancedetails > div:first-child{
+    text-transform:uppercase;
+    margin:10px;
+    font-size:17px
+}
+
+.facultyattendance {
+    color:white;
+}
+.facultyattendance .attendance{
+    height: 90vh;
+    color:white;
+    padding:10px 35px;
+}
+
+.facultyattendance .attendance p{
+    font-size:30px;
+    margin-bottom:15px; 
+}
+
+.facultyattendance .attendance > p{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+.facultyattendance .attendancedetails{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right:  auto;
+    height: 70vh;
+    align-items:center;
+}
+
+.facultyattendance .attendancedetails > div{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    font-size: 20px;
+    margin:5px;
+    text-transform: capitalize;
+    gap:100px;
+
+}
+
+.facultyattendance .attendancedetails > div:first-child{
+    text-transform:uppercase;
+    margin:10px;
+    font-size:24px;     
+    padding-left:10px;
+    justify-content: center;
+    gap: 100px;
+}
+
+.facultyattendance > .attendancedetails button{
+    position: absolute;
+    bottom:5px;
+}
+
+.facultyattendance .attendancedetails > div > div{
+    min-width: 150px;
+    text-align: center;
+    overflow:clip;
+}
+
+.facultyattendance input[type="radio"]{
+    transform: scale(1.5);
+    accent-color: #ea9f26;
+}
+
+.attendance_outer_div{
+    display: flex;
+}
+
+.attendance_timeslot{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width:500px;
+}
+.attendance_button{
+    width: 100px;
+}
+.date_attendance{
+    margin-top:150px;
+    margin-bottom:20px;
+    font-size: 30px;
+}

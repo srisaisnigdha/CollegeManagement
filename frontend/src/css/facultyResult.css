@@ -1,0 +1,75 @@
+.course-name {
+    margin-top: 120px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.result-table-container {
+    margin-top: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: auto;
+}
+
+.result-table {
+    color: white;
+    width: 80%;
+    background-color: #202c45;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.table-body {
+    margin-top: 10px;
+}
+
+.student {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.column {
+    flex-basis: 12%;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-btn {
+    margin-top: 30px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.attendance_outer_div{
+    display: flex;
+}
+
+.attendance_timeslot{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width:500px;
+}
+.attendance_button{
+    width: 150px;
+}

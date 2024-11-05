@@ -1,0 +1,103 @@
+.course{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    height: 300px;
+    width: 350px;
+    text-align: center;
+    border: 2px solid darkblue;
+    border-radius: 20px;
+    padding-top:-30px;
+    padding:5px;
+    background-color: rgb(214, 209, 209);
+    margin-top:15px;
+}
+
+.coursename{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('../assets/card.jpg');
+    background-size: cover;
+    border-radius: 20px;
+    height: 40%;
+    /* margin:5px; */
+    color:white;
+}
+
+.coursedetails{
+    margin-top: 10px;
+}
+
+.coursedetails > p{
+    text-align: start;
+    margin:5px;
+    /* margin-top:10px; */
+}
+
+.course .progressbar {
+    background: rgba(255, 255, 255, 0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    /* position: relative; */
+    /* padding: 10px; */
+    display: flex;
+    height: 10px;
+    /* width: 500px; */
+    max-width: 300px;
+    margin:5px;
+    border:0.5px solid black;
+    padding:2px;
+}
+
+.progressbar span {
+    /* You can modify the value below to change the distance between the percentage number and the bar */
+    margin-left: 10px;
+    color: black;
+    font-weight: bolder;
+}
+
+.bar {
+    /* You can modify the total time used for the animation here */
+    animation: load 3s normal forwards;
+    /* 
+    Add a little spice by having a shadow below the bar.
+    Feel free to comment out this line below to have an even LITE version :D 
+    */
+    box-shadow: 0 10px 40px -10px #fff;
+
+    border-radius: 100px;
+    background: green;
+    height: 5px;
+    width: 0;
+}
+
+@keyframes load {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        /* You need to change the percentage below to match the value in the corresponding <span> */
+        /* width: 68%; */
+        width: var(--attendance-width);
+    }
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    /* gap:15px; */
+    margin-top: 30px;
+}
+
+.buttons button {
+    width: 150px;
+    height: 60px;
+    font-size: small;
+}
+
+.red {
+    background: rgb(202, 8, 8);
+}

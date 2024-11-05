@@ -1,0 +1,56 @@
+.fee-defaulters-list,
+.members-list,
+.fee-receipt-requests-list,
+.bonafide-requests-list {
+    margin-top: 130px;
+    color: white;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fee-defaulters-list .header p,
+.members-list .header p,
+.fee-receipt-requests-list .header p,
+.bonafide-requests-list .header p {
+    font-size: 40px;
+}
+
+.fee-defaulters-list th,
+.members-list th,
+.fee-receipt-requests-list t,
+.bonafide-requests-list th {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fee-defaulters-list tbody,
+.members-list tbody,
+.fee-receipt-requests-list tbody,
+.bonafide-requests-list tbody {
+    font-size: larger;
+}
+
+.fee-defaulters-list .list,
+.members-list .list,
+.fee-receipt-requests-list .list,
+.bonafide-requests-list .list {
+    margin-top: 53px;
+}
+
+.fee-defaulters-list .list table,
+.members-list .list table,
+.fee-receipt-requests-list .list table,
+.bonafide-requests-list .list table {
+    border-collapse: separate;
+    border-spacing: 100px 15px;
+}
+
+.fee-receipt-requests-list button,
+.bonafide-requests-list button {
+    font-weight: lighter;
+    font-size: 18px;
+    letter-spacing: normal;
+    border-radius: 20px;
+    padding: 8px 40px;
+}

@@ -1,0 +1,55 @@
+.profile-container {
+    margin-top: 110px;
+    color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    /* overflow-x: auto; */
+}
+
+.profile-container .header {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ccc;
+    padding: 5px;
+}
+
+.profile-container .header p {
+    /* margin-left: 8px; */
+    font-size: 50px;
+    /* letter-spacing: 0.5px;  */
+}
+
+.profile-container .navlink-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.profile-container .student-profile,
+.profile-container .faculty-profile,
+.profile-container .admin-profile {
+    margin-top: 30px;
+
+}
+
+.profile-container .profile-detail {
+    flex: 0 0 calc(100% - 20px);
+    margin-left: 27px;
+    margin-right: 20px;
+    margin-bottom: 14px;
+    display: flex;
+}
+
+.profile-container .profile-detail p {
+    flex: 0 0 200px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.profile-container .profile-detail span {
+    flex: 1;
+    margin-left: 70px;
+    font-size: 19px;
+    color:white;
+}

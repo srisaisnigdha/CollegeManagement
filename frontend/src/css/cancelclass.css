@@ -1,0 +1,95 @@
+.cancelclass{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80vh;
+    align-items: start;
+    justify-content: start;
+    gap:30px;
+    padding: 50px;
+}
+
+
+.cancelclass p{
+    text-transform: capitalize;
+    font-size:18px;
+    
+}
+
+.cancelclass > p{
+    font-size:18px;
+    align-self: start;
+}
+.cancelclass >p:first-child
+{
+    font-size:40px;
+}
+
+
+.cancelclass form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    gap:20px;
+    margin: 15px;
+
+}
+
+.cancelclass form >div{
+    align-self: start;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.cancelclass input,.cancelclass select{
+    outline: none;
+    border: 2px solid #ea9f26;
+    font-size: 15px;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    padding:5px 10px;
+    margin:5px;
+
+
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.cancelclass button{
+    align-self: end;
+    width: 190px;
+    position: absolute;
+    bottom:200px;
+}
+
+.cancelclass select{
+    min-width: 225px;
+    max-width: 225px;
+}
+
+.cancelclass span,label{
+    color:white;
+    margin: 5px;
+    font-size: 18px;
+}
+
+.cancelclass option{
+    color:black;
+}
+
+.cancelclass label{
+    min-width: 120px;
+    max-width: 120px;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.cancelclass [type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1); 
+  }
